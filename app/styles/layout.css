@@ -115,6 +115,11 @@ nav .pull {
 	background: #fafafa;
 }
 
+.dark {
+	width: 100%;
+	background: #333;
+}
+
 /* Parallax Sections
 ==================================================
 1. Promotion
