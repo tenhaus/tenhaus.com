@@ -1,0 +1,21 @@
+{
+  "name": "tenhaus.com",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tenhaus/tenhaus.com",
+  "authors": [
+    "Chris Hayen <chayen@gmail.com>"
+  ],
+  "description": "Placeholder Site",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.5.1"
+  }
+}
