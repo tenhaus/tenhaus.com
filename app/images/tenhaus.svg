@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="587px" height="391px" viewBox="0 0 587 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>mask</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="mask" sketch:type="MSArtboardGroup" filter="url(#filter-1)" fill="#EB0000">
+            <path d="M73,53 L103,51 L274,13 L321,13 L490,50 L523,51 L529,130 L542,143 L540,223 L530,246 L507,376 L503,213 L350,236 L299,272 L244,236 L94,213 L87,370 L68,245 L57,226 L51,141 L67,128 L73,53 Z M489.05102,106.884158 C489.05102,106.884158 466.132302,93.8114032 448.05102,92.884158 C429.969739,91.9569128 411.05102,102.884158 411.05102,102.884158 L378.05102,121.884158 L334.05102,153.884158 C334.05102,153.884158 329.05102,157.88416 333.05102,161.884158 C337.05102,165.884155 350.591542,174.848616 367.05102,185.884158 C376.000003,191.884158 376.102038,189.884158 378.05102,191.884158 C380.000003,193.884158 395.05102,189.884158 395.05102,189.884158 L467.05102,162.884158 L489.05102,106.884158 Z M100.44898,108.884158 C100.44898,108.884158 123.367698,95.8114032 141.44898,94.884158 C159.530261,93.9569128 178.44898,104.884158 178.44898,104.884158 L211.44898,123.884158 L255.44898,155.884158 C255.44898,155.884158 260.44898,159.88416 256.44898,163.884158 C252.44898,167.884155 238.908458,176.848616 222.44898,187.884158 C213.499997,193.884158 213.397962,191.884158 211.44898,193.884158 C209.499997,195.884158 194.44898,191.884158 194.44898,191.884158 L122.44898,164.884158 L100.44898,108.884158 Z" id="tenhaus" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

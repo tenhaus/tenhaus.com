@@ -1,2 +1,155 @@
 // bower:scss
 // endbower
+$base-width: 491px * .8;
+$base-height: 363px * .8;
+$base-color: #EA0101 /1.2;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+}
+
+$list: one two three four five size seven eight nine ten;
+$adjustment: 10;
+
+
+#scene {
+  width: 100%;
+  height: 100%;
+
+  .layer {
+    width: 100%;
+    height: 100%;
+
+    svg {
+      margin: auto;
+      position: absolute;
+      display: inline-block;
+      top: 0; left: 0; bottom: 0; right: 0;
+    }
+
+
+  }
+}
+
+#info {
+  margin: auto;
+  position: absolute;
+  display: inline-block;
+  bottom: 20px; right: 20px;
+
+  h1, p {
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+  }
+}
+
+.one {
+  width: $base-width - 10;
+  height: $base-height - 10;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+  }
+}
+
+.two {
+  width: $base-width - 20;
+  height: $base-height - 20;
+  opacity: .9;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 20;
+  }
+}
+
+.three {
+  width: $base-width - 30;
+  height: $base-height - 30;
+  opacity: .8;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 30;
+  }
+}
+
+.four {
+  width: $base-width - 40;
+  height: $base-height - 40;
+  opacity: .7;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 40;
+  }
+}
+
+.five {
+  width: $base-width - 50;
+  height: $base-height - 50;
+  opacity: .6;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 50;
+  }
+}
+
+.six {
+  width: $base-width - 60;
+  height: $base-height - 60;
+  opacity: .5;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 60;
+  }
+}
+
+.seven {
+  width: $base-width - 70;
+  height: $base-height - 70;
+  opacity: .4;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 70;
+  }
+}
+
+.eight {
+  width: $base-width - 80;
+  height: $base-height - 80;
+  opacity: .3;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 80;
+  }
+}
+
+.nine {
+  width: $base-width - 90;
+  height: $base-height - 90;
+  opacity: .2;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 90;
+  }
+}
+
+.ten {
+  width: $base-width - 100;
+  height: $base-height - 100;
+  opacity: .1;
+  path {
+    stroke: $base-color - 200;
+    stroke-width: 3;
+    fill: $base-color - 100;
+  }
+}

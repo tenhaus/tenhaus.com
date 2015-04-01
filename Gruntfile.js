@@ -152,6 +152,7 @@ module.exports = function (grunt) {
     // Compiles Sass to CSS and generates necessary files if requested
     sass: {
       options: {
+        trace: true,
         sourceMap: true,
         includePaths: ['bower_components']
         },
